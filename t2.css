@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  
+}
+label{
+  color:#54C4A8;
+  
+}
+
+body {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  width: 750px;
+  background: rgb(245, 241, 241);
+  border: 15px solid #5f7f8f;
+  border-radius:1px;
+}
+
+.header {
+  background: #EBF0F0;
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color:gray;
+  font-family:arial,sans-serif,roboto;
+  
+}
+
+form {
+  padding: 20px;
+  background-color: #FAFAFA;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-color:#EEEEEE;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+
+}
+
+.row > div {
+    flex: 1;
+}
+
+.flexx input {
+  width: auto;
+  margin-right: 5px;
+}
+
+
+
+button:hover {
+  background: #16a085;
+}
+
+.footer {
+  background-color: #EBF0F0;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 710px;
+                                         
+
+}
+.nn{
+color: #24c1a2;
+}
+button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 480px;
+  background-color: #24c1a2;
+  color:aliceblue;
+}
+
+
+.rr input{
+  width: 220px;
+  
+}
+.rr button{
+  padding: 3px;
+  margin-left: 30px;
+
+  
+}

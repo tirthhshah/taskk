@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="t2.css">
+  <script type="module" src="t2.js" defer></script>
+</head>
+<body>
+
+  <div class="form-box" >
+    <div class="header">Create Account</div>
+
+
+    <form id="form">
+      <div class="row">
+        <div>
+          <label><b>First name *</b></label>
+          <input type="text" id="fname" placeholder="enter your first name" required>
+        </div>
+        <div>
+          <label><b>Last name</b></label>
+          <input type="text" id="lname" placeholder="enter your last name" required>
+        </div>
+      </div>
+  
+      <label><b>Email *</b></label>
+      <input type="email" id="email" placeholder="enter your email" required>
+
+      <div class="row">
+        <div>
+          <label><b>Password *</b></label>
+          <input type="password" id="password" placeholder="enter your password" required>
+        </div>
+        <div>
+          <label><b>Confirm Password *</b></label>
+          <input type="password" id="confirmpassword" placeholder="enter your password again" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div>
+          <label><b>Gender</b></label>
+          <div class="flexx">
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+          </div>
+        </div>
+        <div>
+          <label><b>Hobbies</b></label>
+          <div class="flexx">
+            <input type="checkbox" id="music"> music
+            <input type="checkbox" id="sports"> sports
+            <input type="checkbox" id="travel"> travel
+            <input type="checkbox" id="movies"> movies
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div>
+          <label id="source of income"><b>Source of Income</b></label>
+          <select>
+            <option>Employed</option>
+            <option>Business</option>
+            <option>Student</option>       
+       
+          </select>
+        </div>
+        <div class="rr">
+          <label ><b>Income</b></label>
+          
+<input type="range" id="range" min="50" max="100"><button type="button" id="incomeBtn">20K</button>
+          
+        </div>
+      </div>
+
+      <div class="row">
+        <div>
+          <label><b>Upload Profile Picture</b></label>
+          <input type="file" id="file" required>
+        </div>
+        <div>
+          <label><b>Age</b></label>
+          <input id="number" type="number" required>
+        </div>
+      </div>
+
+    <div class="nn">  <label><b>Bio</b></label>
+      <textarea rows="3"></textarea></div>
+
+  
+    </form>
+  <div class="footer">
+    <button>Create</button>
+    </div>
+  </div>
+
+</body>
+</html>
